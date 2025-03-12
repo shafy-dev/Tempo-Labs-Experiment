@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.json",
+  "exclude": [
+    "jest.setup.ts",
+    "src/**/*.stories.*",
+    "src/**/*.test.*",
+    "src/**/*.spec.*",
+    "node_modules",
+    "rollup.config.ts",
+    "jest.config.ts",
+    "test-utils/**"
+  ]
+}
